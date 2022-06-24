@@ -53,7 +53,7 @@ inputs:
   output-path:
     description: "Output path of ipa"
     required: false
-    default: "output.ipa"
+    default: ""
   scheme:
     description: "Scheme"
     required: false
@@ -84,10 +84,6 @@ inputs:
     default: ""
   archive-path:
     description: "Path to the archived build"
-    required: false
-    default: ""
-  build-path:
-    description: "The directory in which the archive should be stored"
     required: false
     default: ""
 runs:
