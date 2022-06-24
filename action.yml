@@ -82,6 +82,10 @@ inputs:
     description: "Path for Swift Package Manager dependencies"
     required: false
     default: ""
+  archive-path:
+    description: "Path for archived build"
+    required: false
+    default: ""
 runs:
   using: "node12"
   main: "dist/index.js"
