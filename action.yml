@@ -83,7 +83,11 @@ inputs:
     required: false
     default: ""
   archive-path:
-    description: "Path for archived build"
+    description: "Path to the archived build"
+    required: false
+    default: ""
+  build-path:
+    description: "The directory in which the archive should be stored"
     required: false
     default: ""
 runs:

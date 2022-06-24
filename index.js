@@ -50,6 +50,7 @@ async function run() {
     process.env.BUILD_SDK = core.getInput("build-sdk");
     process.env.BUILD_DESTINATION = core.getInput("build-destination");
     process.env.ARCHIVE_PATH = core.getInput("archive-path")
+    process.env.BUILD_PATH = core.getInput("build-path")
 
 
     // Execute build.sh
